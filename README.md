@@ -1,7 +1,7 @@
 # linux-driver
 build kernel modul:
 
-make -c ~/(kernel version) M='pwm' modules
+           make -c ~/(kernel version) M='pwm' modules
 
 linux kernel module
 b1: Viết mã nguồn (File hello_kernel_module.c)

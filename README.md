@@ -1,4 +1,6 @@
 # linux-driver
+build kernel modul:
+make -c ~/(kernel version) M='pwm' modules
 linux kernel module
 b1: Viết mã nguồn (File hello_kernel_module.c)
 Bước 2. Viết Makefile cho kernel module để biên dịch (đặt cùng thư mục file mã nguồn)
